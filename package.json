@@ -1,0 +1,32 @@
+{
+  "name": "@wokwi/mbedtls",
+  "version": "3.1.0",
+  "description": "mbedtls compiled with Web Assembly (wasm)",
+  "main": "dist/mbedtls.js",
+  "types": "mbedtls.d.ts",
+  "typesVersions": {
+    "*": {
+      "dist/mbedtls-node": [
+        "./mbedtls.d.ts"
+      ]
+    }
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wokwi/mbedtls-wasm.git"
+  },
+  "keywords": [
+    "wasm"
+  ],
+  "author": "Uri Shaked",
+  "files": [
+    "mbedtls.d.ts",
+    "dist"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wokwi/mbedtls-wasm/issues"
+  },
+  "homepage": "https://github.com/wokwi/mbedtls-wasm#readme"
+}
